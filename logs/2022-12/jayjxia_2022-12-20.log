@@ -1,0 +1,16 @@
+【jayj-validate】 [http-nio-8080-exec-1] ERROR com.maker.common.util.ValidateUtils - 未找到规则类：com.maker.common.validate.rule.LongValidateRule
+【jayj-validate】 [http-nio-8080-exec-5] ERROR com.maker.common.util.ValidateUtils - 调用验证方法异常：null
+【jayj-validate】 [http-nio-8080-exec-5] ERROR com.maker.common.util.ValidateUtils - 调用验证方法异常：null
+【jayj-validate】 [http-nio-8080-exec-5] ERROR com.maker.common.util.ValidateUtils - 调用验证方法异常：null
+【jayj-validate】 [http-nio-8080-exec-6] ERROR com.maker.common.util.ValidateUtils - 调用验证方法异常：null
+【jayj-validate】 [http-nio-8080-exec-6] ERROR com.maker.common.util.ValidateUtils - 调用验证方法异常：null
+【jayj-validate】 [http-nio-8080-exec-6] ERROR com.maker.common.util.ValidateUtils - 调用验证方法异常：null
+【jayj-validate】 [http-nio-8080-exec-1] ERROR com.maker.common.util.ValidateUtils - 调用验证方法异常：null
+【jayj-validate】 [http-nio-8080-exec-1] ERROR com.maker.common.util.ValidateUtils - 调用验证方法异常：null
+【jayj-validate】 [http-nio-8080-exec-1] ERROR com.maker.common.util.ValidateUtils - 调用验证方法异常：null
+【jayj-validate】 [http-nio-8080-exec-1] ERROR com.maker.common.util.ValidateUtils - 调用验证方法异常：null
+【jayj-validate】 [http-nio-8080-exec-1] ERROR com.maker.common.util.ValidateUtils - 调用验证方法异常：null
+【jayj-validate】 [http-nio-8080-exec-1] ERROR com.maker.common.util.ValidateUtils - 调用验证方法异常：null
+【jayj-validate】 [http-nio-8080-exec-2] ERROR com.maker.common.util.ValidateUtils - 调用验证方法异常：null
+【jayj-validate】 [http-nio-8080-exec-2] ERROR com.maker.common.util.ValidateUtils - 调用验证方法异常：null
+【jayj-validate】 [http-nio-8080-exec-2] ERROR com.maker.common.util.ValidateUtils - 调用验证方法异常：null

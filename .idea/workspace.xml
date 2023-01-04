@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d1e8209-0dc2-4e11-a06f-510ab2e4df75" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/annotation/ErrorPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/annotation/RequestDataValidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/annotation/UploadFileType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/http/MyRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/http/filter/MyStreamFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/http/filter/UploadFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/http/util/HandlerMethodStorageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/http/util/ReadRequestBodyData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/http/util/UploadFileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/interceptor/MyValidateInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/mapper/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/util/ResponseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/util/ValidateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/validate/IValidateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/validate/abs/AbstractValidateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/validate/rule/BooleanValidateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/validate/rule/DateValidateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/validate/rule/DatetimeValidateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/validate/rule/DoubleValidateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/validate/rule/IntValidateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/validate/rule/IntsValidateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/validate/rule/LongValidateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/validate/rule/LongsValidateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/validate/rule/RandValidateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/validate/rule/StringValidateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/validate/rule/StringsValidateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/validate/rule/UploadValidateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/web/action/abs/AbstractAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/web/config/ResourceViewConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-case/src/main/java/com/maker/common/web/servlet/MyDispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12/jayjxia_2022-12-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12/jayjxia_2022-12-21.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12/jayjxia_2022-12-23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2022-12/jayjxia_2022-12-29.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-01/jayjxia_2023-01-01.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-01/jayjxia_2023-01-03.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-01/jayjxia_2023-01-04.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/action/CookieAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/action/DataAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/action/EmpAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/action/ExceptionAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/action/HeaderAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/action/InnerObjectAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/action/MessageAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/action/NotFoundAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/action/ResAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/action/SessionAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/action/UploadAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/action/abs/AbstractAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/advice/ErrorAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/config/JacksonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/filter/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/interceptor/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/main/SpringmvcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/service/IMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/servlet/MyDispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/vo/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/vo/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/web/config/StartWEBApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/java/com/maker/web/config/StartWEBApplicationSecond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/pages/data/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/pages/emp/input.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/pages/emp/show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/pages/error/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/pages/error/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/pages/fileupload/input.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/pages/message/input.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/pages/message/show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/pages/message/showresult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/pages/res/show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/pages/user/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/static/images/pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/static/js/jay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/test/resources/spring-base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/test/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/src/test/resources/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/action/AdminAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/action/CaptchaAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/action/CommonAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/action/MainAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/action/MemberAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/action/MessageAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/action/SecurityExpressionAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/action/abs/AbstractAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/action/advice/ErrorAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/action/errors/ErrorAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/config/HikariCPDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/config/JacksonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/config/MethodSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/config/TokenRepositoryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/config/ViewResolverConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/config/WebMvcSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/context/config/SpringApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/context/config/SpringWebApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/exception/CaptchaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/filter/CaptchaAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/main/SpringSecurityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/mapper/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/service/IAdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/service/MyUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/servlet/MyDispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/util/CaptchaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/maker/web/config/StartWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/profiles/dev/config/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/webapps/WEB-INF/pages/add_success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/webapps/WEB-INF/pages/errors/403_error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/webapps/WEB-INF/pages/errors/404_error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/webapps/WEB-INF/pages/errors/500_error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/webapps/WEB-INF/pages/input_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/webapps/WEB-INF/pages/input_csrf.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/webapps/WEB-INF/pages/login_failure.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/webapps/WEB-INF/pages/login_page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/webapps/WEB-INF/pages/login_success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/webapps/WEB-INF/pages/logout_page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/webapps/WEB-INF/pages/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/action/BackAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/action/BookAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/action/ErrorAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/action/ItemAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/action/advice/ErrorAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/action/util/PageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/cache/memcache/MemCached.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/cache/memcache/MemCachedManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/config/HikariCPDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/config/MemcachedConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/config/SpringCacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/config/SpringDataJPAConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/config/TransactionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/context/config/SpringApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/context/config/SpringWebContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/dao/IBookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/dao/IItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/po/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/po/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/service/IBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/service/IItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/service/abs/AbstractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/service/impl/IBookServiceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/service/impl/IItemServiceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/com/maker/ssj/web/config/StartWebApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/java/note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/resources/config/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/resources/config/jpa.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/resources/config/memcached.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/back/admin/book/book_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/back/admin/book/book_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/back/admin/book/book_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/back/admin/item/item_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/back/admin/item/item_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/back/admin/member/member_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/back/admin/member/member_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/back/admin/member/member_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/back/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/error/error_404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/error/error_500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/plugin/forward.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/plugin/menu/common/menu_content_footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/plugin/menu/common/menu_content_header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/plugin/menu/common/menu_content_nav_large.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/plugin/menu/common/menu_content_nav_small.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/plugin/menu/common/menu_content_top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/plugin/menu/common/menu_nav.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/plugin/menu/common/menu_page_header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/plugin/menu/common/menu_script.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/plugin/modal/back/book_modal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/plugin/modal/back/member_modal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/plugin/split_page_plugin_bar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/pages/plugin/split_page_plugin_search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/css/fileinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/css/fileinput.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/boxicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/boxicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/boxicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/boxicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/boxicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/la-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/la-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/la-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/la-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/la-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/la-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/la-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/la-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/la-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/la-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/la-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/la-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/la-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/la-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/fonts/la-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/images/error/code_404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/images/error/code_500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/images/flag-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/images/flag-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/images/logo-w-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/images/logo-w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/images/muyan-yootk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/images/yootk-admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/images/yootk-item.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/apexcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/bootstrap-material-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/chart-dash-1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/feather.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/fileinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/ion.rangeSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/jquery.barrating.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/jquery.bootstrap-touchspin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/jquery.nice-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/LANG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/cr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/kr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/kz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/sr-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/uz-Cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/uz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/locales/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/pages/back/admin/book/book_add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/pages/back/admin/book/book_edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/pages/back/admin/book/book_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/pages/back/admin/item/item_add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/pages/back/admin/member/member_add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/pages/back/admin/member/member_edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/pages/back/admin/member/member_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/plugins/piexif.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/plugins/piexif.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/plugins/sortable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/plugins/sortable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/prism.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/simplebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/bs5/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/bs5/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/explorer-fa/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/explorer-fa/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/explorer-fa/theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/explorer-fa/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/explorer-fas/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/explorer-fas/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/explorer-fas/theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/explorer-fas/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/explorer/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/explorer/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/explorer/theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/explorer/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/fa/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/fa/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/fas/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/fas/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/gly/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/themes/gly/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/tinymce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/tinymce.zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/static/js/yootk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/upload/book/47006500-975c-44ed-bfbf-bea6c259b674.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/upload/book/9a5de82e-1f8a-4826-8f25-aac5190dcf97.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/upload/book/e20d7f07-24db-4d0b-8ab9-ff5e6003464c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/upload/book/f0414489-b70a-4b73-98ef-2b1cc46ab11c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/upload/book/nophoto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/main/webapp/WEB-INF/upload/member/nophoto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/test/java/com/maker/test/DataSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/test/java/com/maker/test/ItemServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssj-case/src/test/java/com/maker/test/TestMemcached.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate-case/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate-case/src/main/java/com/maker/main/validateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate-case/src/main/java/com/maker/validate/action/EmpAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate-case/src/main/java/com/maker/validate/action/ErrorAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate-case/src/main/java/com/maker/validate/action/advice/ErrorAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate-case/src/main/java/com/maker/validate/vo/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate-case/src/main/java/com/maker/validate/web/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate-case/src/main/java/com/maker/validate/web/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate-case/src/main/java/com/maker/validate/web/config/StartWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate-case/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate-case/src/main/webapp/WEB-INF/pages/add_success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate-case/src/main/webapp/WEB-INF/pages/errors/404_error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate-case/src/main/webapp/WEB-INF/pages/errors/500_error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate-case/src/main/webapp/WEB-INF/pages/input_add.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SpringMVCDemo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SpringMVCDemo" type="f1a62948:ProjectNode" />
+                <item name="spring-security-demo" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SpringMVCDemo" type="f1a62948:ProjectNode" />
+                <item name="spring-security-demo" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SpringMVCDemo" type="f1a62948:ProjectNode" />
+                <item name="spring-security-demo" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IIGEUSd232NaDnaYwhu7xeauZR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/IdeaProject/SpringMVCDemo/spring-security-demo/src/main/profiles/dev/config&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProject\SpringMVCDemo\spring-security-demo\src\main\profiles\dev\config" />
+      <recent name="E:\IdeaProject\SpringMVCDemo\spring-security-demo\src\main\webapps\WEB-INF\pages" />
+      <recent name="E:\IdeaProject\SpringMVCDemo\spring-security-demo\src\main\webapps\WEB-INF\pages\errors" />
+      <recent name="E:\IdeaProject\SpringMVCDemo\spring-security-demo\src\main\resources" />
+      <recent name="E:\IdeaProject\SpringMVCDemo\spring-security-demo\src\main\webapps\WEB-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProject\SpringMVCDemo\mvc\src\main\webapp\WEB-INF" />
+      <recent name="E:\IdeaProject\SpringMVCDemo\mvc\src\main\webapp\WEB-INF\pages\static\images" />
+      <recent name="E:\IdeaProject\SpringMVCDemo\mvc\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.maker.config" />
+      <recent name="com.maker.action.abs" />
+      <recent name="com.maker.action.errors" />
+      <recent name="com.maker.ssj.action" />
+      <recent name="com.maker.ssj.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Smart Tomcat.tomcat-springSecurity">
+    <configuration name="SpringSecurityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.maker.main.SpringSecurityTest" />
+      <module name="SpringMVCDemo.spring-security-demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maker.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSourceTest.getDataSource" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":ssj-case:test" />
+            <option value="--tests" />
+            <option value="&quot;com.maker.test.DataSourceTest.getDataSource&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ItemServiceTest.listTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":ssj-case:test" />
+            <option value="--tests" />
+            <option value="&quot;com.maker.test.ItemServiceTest.listTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMemcached" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":ssj-case:test" />
+            <option value="--tests" />
+            <option value="&quot;com.maker.test.TestMemcached&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMemcached.testConnection" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":ssj-case:test" />
+            <option value="--tests" />
+            <option value="&quot;com.maker.test.TestMemcached.testConnection&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
+      <option name="adminPort" value="8005" />
+      <option name="contextPath" value="/SpringMVCDemo.spring-security-demo.main" />
+      <option name="docBase" value="$PROJECT_DIR$/spring-security-demo/src/main/webapps" />
+      <option name="envOptions" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.63" />
+          <option name="number" value="0" />
+          <option name="path" value="D:\tomcat9\apache-tomcat-9.0.63-windows-x64\tomcat9" />
+          <option name="version" value="9.0.63.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat-springSecurity" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
+      <option name="adminPort" value="8005" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="E:\IdeaProject\SpringMVCDemo\spring-security-demo\src\main\webapps" />
+      <option name="envOptions" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.63" />
+          <option name="number" value="0" />
+          <option name="path" value="D:\tomcat9\apache-tomcat-9.0.63-windows-x64\tomcat9" />
+          <option name="version" value="9.0.63.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat-ssj" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
+      <option name="adminPort" value="8005" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="E:\IdeaProject\SpringMVCDemo\ssj-case\src\main\webapp" />
+      <option name="envOptions" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.63" />
+          <option name="number" value="0" />
+          <option name="path" value="D:\tomcat9\apache-tomcat-9.0.63-windows-x64\tomcat9" />
+          <option name="version" value="9.0.63.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat-validate" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
+      <option name="adminPort" value="8005" />
+      <option name="contextPath" value="/validate" />
+      <option name="docBase" value="E:\IdeaProject\SpringMVCDemo\validate-case\src\main\webapp" />
+      <option name="envOptions" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.63" />
+          <option name="number" value="0" />
+          <option name="path" value="D:\tomcat9\apache-tomcat-9.0.63-windows-x64\tomcat9" />
+          <option name="version" value="9.0.63.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat9" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
+      <option name="adminPort" value="8005" />
+      <option name="contextPath" value="/mvc" />
+      <option name="docBase" value="E:\IdeaProject\SpringMVCDemo\mvc\src\main\webapp" />
+      <option name="envOptions" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.63" />
+          <option name="number" value="0" />
+          <option name="path" value="D:\tomcat9\apache-tomcat-9.0.63-windows-x64\tomcat9" />
+          <option name="version" value="9.0.63.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SpringSecurityTest" />
+      <item itemvalue="Gradle.ItemServiceTest.listTest" />
+      <item itemvalue="Gradle.TestMemcached" />
+      <item itemvalue="Gradle.TestMemcached.testConnection" />
+      <item itemvalue="Gradle.DataSourceTest.getDataSource" />
+      <item itemvalue="Smart Tomcat.tomcat-ssj" />
+      <item itemvalue="Smart Tomcat.tomcat-springSecurity" />
+      <item itemvalue="Smart Tomcat.tomcat9" />
+      <item itemvalue="Smart Tomcat.tomcat-validate" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringSecurityTest" />
+        <item itemvalue="Gradle.ItemServiceTest.listTest" />
+        <item itemvalue="Gradle.TestMemcached" />
+        <item itemvalue="Gradle.TestMemcached.testConnection" />
+        <item itemvalue="Gradle.DataSourceTest.getDataSource" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d1e8209-0dc2-4e11-a06f-510ab2e4df75" name="Changes" comment="" />
+      <created>1669861575360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669861575360</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

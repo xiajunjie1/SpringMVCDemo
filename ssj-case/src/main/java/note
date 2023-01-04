@@ -1,0 +1,13 @@
+使用Spring+SpringMVC+SpringData JPA实现CRUD操作
+其中使用到Memcached缓存组件实现缓存
+环境搭建：
+    引入相关依赖：mysql驱动、HikariCP连接池、SpringData JPA、SpringCache、Memcached
+TransactionManager需要换为JPATransactionManager
+
+com.maker.ssj.context:Spring和SpringMVC的配置类
+com.maker.ssj.config:各种组件（HikariCP、Memcached、JPA以及事务管理器等）的配置类
+com.maker.ssj.action:各种控制器，包括首页跳转，错误页跳转等等，还有全局错误处理的AdviceController
+com.maker.ssj.cache.memcache：手工创建针对Memcached的CacheManager，主要是针对SpringCache所需要的CacheManager
+com.maker.ssj.web.config：在Tomcat启动的时候，启动Spring容器对象
+
+视图解析器和验证拦截器均使用的是common-case模块下定义好的内容
